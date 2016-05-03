@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Workspace Header Blur</title>
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <!-- Montserrat Sans -->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400, 700' rel='stylesheet' type='text/css'>        
+  
+</head>
+
+<body class="flip-horizontal">
+  <div id="demo-bar"></div>
+  <div class="header">
+    <ul>
+      <a href="index.html">Fade</a>
+      <a href="flip-vertical.html">Flip Vertical</a>
+      <a class="active" href="flip-horizontal.html">Flip Horizontal</a>
+      <a href="slide-vertical.html">SLide Vertical</a>
+      <a href="bounce.html">Bounce</a>
+    </ul> 
+  </div>
+  <div id="home">
+    <div class="background"><img src="http://www.webdesigncrowd.com/wp-content/uploads/2014/07/full-background.jpg"></div>
+    <h1 class="welcome">Animated tagline switcher<br>
+      <span class="tagline">taglines made ridiculously 
+        <span class="tag-change">
+          <a class="active purple" href="">easy</a>
+          <a class="blue" href="">simple</a>
+          <a class="green" href="">fast</a>
+          <a class="red" href="">affordable</a>
+        </span>
+      </span>
+      <br><br>
+    <a href="http://webdesigncrowd.com" class="btn"><span class="title">WebDesignCrowd</span></a>
+    <a href="http://www.webdesigncrowd.com/animated-tagline-switcher/" class="btn"><span class="title">Back to Article</span></a>
+    </h1>
+  </div>
+
+
+  <!-- Javascript -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/init.js"></script>
+  <script> 
+    $(function(){
+      $("#demo-bar").load("../demo-bar.html"); 
+    });
+  </script> 
+</body>
+</html>
